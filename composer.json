@@ -1,0 +1,33 @@
+{
+    "license": "MIT",
+    "type": "library",
+    "name": "amemorypro/botstanapi",
+    "minimum-stability": "stable",
+    "description": "Use telegram bot api easily.",
+    "keywords": ["yii2","telegram","bot","api"],
+    "authors": [
+        {
+            "name": "MehdiKhody",
+            "email": "khody.khoram@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/amemorypro/BotStanApi/issues",
+        "source": "https://github.com/amemorypro/BotStanApi"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": ">=2.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "api\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

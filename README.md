@@ -17,10 +17,10 @@ The API is an HTTP-based interface created for developers keen on building bots 
 
 ### Installation
 
-Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `"botstan/api": "*"` Or run this command in your command line:
+Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `"amemorypro/botstanapi": "dev-master"` Or run this command in your command line:
 
 ```shell
-composer require botstan/api
+composer require amemorypro/botstanapi
 ```
 
 

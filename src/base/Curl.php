@@ -106,7 +106,7 @@ class Curl
     {
         $options = $this->_options;
         $default = $this->_default_options;
-        return AH::merge($options, $default);
+        return options + $default;
     }
 
     /**
